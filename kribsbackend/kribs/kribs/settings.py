@@ -127,13 +127,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# Default site URL
-SITE_URL = os.getenv('SITE_URL', 'http://127.0.0.1:8000')
-
-# If you're using Ngrok, set its URL
-NGROK_URL = 'https://91e8-102-218-124-142.ngrok-free.app'
+# Media files settings
+MEDIA_URL = '/media/'  # URL to access media files
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory to store media files

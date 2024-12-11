@@ -4,6 +4,7 @@ import { PiShowerThin } from "react-icons/pi";
 import { MdOutlineSquareFoot } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom";
+
 const Card = ({
   status,
   category,
@@ -33,8 +34,12 @@ const Card = ({
       figure: area
     }
   ];
-  console.log(bgimage);
-  
+
+  const fullImageUrl =
+    bgimage && !bgimage.startsWith("http") // If bgimage is not a full URL
+      ? `${import.meta.env.VITE_API_URL}${bgimage}`
+      : bgimage; // Otherwise, use bgimage as is
+
   const capitalizeCategory =
     category.charAt(0).toUpperCase() + category.slice(1);
 
@@ -46,7 +51,8 @@ const Card = ({
       <div
         className="flex h-[200px] rounded-t-sm bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${bgimage})`        }}
+          backgroundImage: `url(${fullImageUrl})`
+        }}
       >
         <div className="flex w-full h-full text-white bg-primary/10 hover:bg-transparent">
           <div className="flex w-full h-full flex-col justify-between">
