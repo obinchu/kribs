@@ -1,0 +1,293 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "New Apartments Rongai",
+      "slug": "new-apartments-rongai",
+      "location": "Rongai , Kenya",
+      "property_type": "apartment",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/house.png",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [2, 3, 4],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "2000.00",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "price": "20000.00"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Renovated Condo",
+      "slug": "renovated-condo",
+      "location": "Westlands , Kenya",
+      "property_type": "condo",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "buy",
+      "cover_image": "../src/assets/images/house2.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Renovated Condo",
+      "slug": "condo",
+      "location": "Westlands , Kenya",
+      "property_type": "condo",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "buy",
+      "cover_image": "../src/assets/images/house3.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Renovated Condo",
+      "slug": "condo1",
+      "location": "Westlands , Kenya",
+      "property_type": "Office",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/house3.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Renovated Condo",
+      "slug": "condo2",
+      "location": "Westlands , Kenya",
+      "property_type": "Store",
+      "category": "rental",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "buy",
+      "cover_image": "../src/assets/images/house4.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around", "WiFi"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Renovated Condo",
+      "slug": "condo3",
+      "location": "Westlands , Kenya",
+      "property_type": "condo",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "buy",
+      "cover_image": "../src/assets/images/house2.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Renovated Condo",
+      "slug": "condo4",
+      "location": "Westlands , Kenya",
+      "property_type": "condo",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/house3.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Renovated Condo",
+      "slug": "condo5",
+      "location": "Westlands , Kenya",
+      "property_type": "Studio",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "buy",
+      "cover_image": "../src/assets/images/house4.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Renovated Condo",
+      "slug": "condo6",
+      "location": "Westlands , Kenya",
+      "property_type": "condo",
+      "category": "residential",
+      "description": "Are you looking to live amongst the bustle of Nairobi? Or maybe you prefer to wake up to sea views in Mombasa? With over 7,500+ listings for sale, BuyRentKenya can match you with a property to call home.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/house3.jpg",
+      "other_images": [
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house1.jpg",
+        "../src/assets/images/house2.jpg",
+        "../src/assets/images/house3.jpg",
+        "../src/assets/images/house4.jpg"
+      ],
+      "likes": [],
+      "features": ["hardwood floors", "en suite"],
+      "amenities": ["parking", "hospital", "school around"],
+      "unit": {
+        "area": "4000.00",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "price": "30000.00"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Office Space in Westlands",
+      "slug": "office-space-westlands",
+      "location": "Westlands, Kenya",
+      "property_type": "office",
+      "category": "commercial",
+      "description": "A spacious and well-lit office space located in the heart of Westlands, ideal for businesses and startups.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/office.jpg",
+      "other_images": [
+        "../src/assets/images/office1.jpg",
+        "../src/assets/images/office2.jpg",
+        "../src/assets/images/office3.jpg"
+      ],
+      "likes": [],
+      "features": ["open layout", "private office"],
+      "amenities": ["parking", "elevator"],
+      "unit": {
+        "area": "5000.00",
+        "price": "45000.00"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Studio Space for Creatives",
+      "slug": "studio-space-westlands",
+      "location": "Westlands, Kenya",
+      "property_type": "studio",
+      "category": "commercial",
+      "description": "A modern studio space perfect for creative professionals such as photographers, designers, and artists.",
+      "status": "rent",
+      "cover_image": "../src/assets/images/studio.jpg",
+      "other_images": [
+        "../src/assets/images/studio1.jpg",
+        "../src/assets/images/studio2.jpg",
+        "../src/assets/images/studio3.jpg"
+      ],
+      "likes": [],
+      "features": ["high ceilings", "natural lighting"],
+      "amenities": ["WiFi", "parking"],
+      "unit": {
+        "area": "2500.00",
+        "price": "25000.00"
+      }
+    }
+  ]
+}
