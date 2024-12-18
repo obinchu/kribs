@@ -1,0 +1,3 @@
+.overlay{
+    border-image: fill 1 linear-gradient(hsla(153, 90%, 8%, 0.7), hsla(0, 100%, 2%, 0.6));
+}

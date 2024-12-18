@@ -30,14 +30,14 @@ const FeaturedListings = () => {
   }, [firstItemsArray]);
 
   return (
-    <div className="h-[55vh] w-full flex flex-col items-center">
+    <div className="h-[50vh] w-full flex flex-col items-center">
       <div className="flex w-full h-full bg-gray-50 items-center">
         <div className="flex flex-col justify-center max-w-7xl mx-auto w-full h-[90%]">
           <div className="flex flex-col justify-center items-center h-[30%]">
             <span className="text-4xl font-extralight m-[5px]"> Featured Listings</span>
-            <p className="text-md font-light w-[30%] text-center">Here are some of the many kul properties available on kul properties</p>
+            <p className="text-md font-light w-[30%] text-center">Here are some of the many kul properties available on kulproperties</p>
           </div>
-          <div className="flex justify-center w-[75%] mx-auto h-[70%]">
+          <div className="flex justify-center w-[65%] mx-auto h-[70%]">
             <div className="grid grid-cols-3 grid-rows-1 w-full h-full">
               {
                 array.map((property, i) => (
@@ -59,7 +59,6 @@ const FeaturedListings = () => {
           </div>
           <div className="flex justify-center items-center">
             <Button
-            icon={<FaArrowRight size={20}/>}
             path={"/listings"}
             name={"View All"}
             />

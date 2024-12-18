@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <div className="relative w-full text-base">
       <input 
-        className="w-full rounded-full outline outline-[2px] outline-secondary ps-[15px] p-[7px] pr-[50px]" 
+        className="w-full outline outline-[2px] outline-secondary ps-[15px] p-[7px] pr-[50px]" 
         type="search" 
         name="search" 
         id="search" 

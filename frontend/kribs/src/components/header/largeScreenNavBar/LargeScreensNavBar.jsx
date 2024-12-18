@@ -46,7 +46,7 @@ console.log("unique categories"+ uniqueCategories);
 ]
 
   return (
-    <div className='hidden lg:flex fixed w-full bg-primary z-50 shadow-sm font-normal items-center justify-centre align-center text-tertiary text-sm'>
+    <div className='hidden lg:flex fixed w-full bg-transparent z-50  font-normal items-center justify-centre align-center text-white text-base'>
       <div className='w-full flex relative max-w-7xl mx-auto justify-between'>
         <div className="flex items-center font-normal  text-2xl py-[5px] my-[5px]">
           KULPROPERTIES
